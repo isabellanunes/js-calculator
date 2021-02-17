@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #05445E;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    font-weight: 400;
+}
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background: #D4F1F4;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+}
+
+.display {
+    padding: 0.5rem;
+}
+
+input {
+    background: #05445E;
+    width: 18rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    text-align: right;
+    margin: 0.2rem 0 0 0.5rem;
+}
+
+button {
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    background: #05445E;
+}
+
+.line1 button,
+.line2 button,
+.line3 button,
+.line4 button,
+.line5 button {
+    width: 4.1rem;
+    height: 3rem;
+}
+
+button#equal {
+    width: 17.3rem;
+    margin: 0.5rem 1rem 0.5rem 1.3rem;
+}
+
+button#sum {
+    margin: 0.5rem 0 0 1.3rem;
+}
+
+button#seven {
+    margin: 0.5rem 0 0 1.3rem;
+}
+
+button#four {
+    margin: 0.5rem 0 0 1.3rem;
+}
+
+button#one {
+    margin: 0.5rem 0 0 1.3rem;
+}
