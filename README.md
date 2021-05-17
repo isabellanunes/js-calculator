@@ -17,7 +17,7 @@
 
 <br />
 
-## Technologies
+## Technologies and requirements
 - HTML
 - CSS
 - JavaScript
@@ -27,6 +27,9 @@ This is simple calculator using only vanilla JavaScript, HTML and CSS.
 
 ## Run
 Just open the [index.html](index.html) on a browser.
+
+## Status
+In progress 🚧
 
 ## License
 This project is under the MIT License. See [LICENSE](/LICENSE.md) file for more details.
